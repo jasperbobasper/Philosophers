@@ -1,7 +1,7 @@
 # Philosophers - The Deadly Quest for Sustenance
 In this challenging assignment, I successfully tackled the task of simulating the behavior of philosophers sitting around a round table, alternately eating, thinking, and sleeping. Their goal? To avoid the deadly fate of starvation.
 
-The simulation revolved around a round table with a large bowl of spaghetti placed at its center. To ensure a smooth dining experience, each philosopher needed to hold both the right and left forks to eat. And to avoid any mishaps, it was crucial to handle forks with care, preventing duplication or conflicts.
+Each philosopher needed to hold both the right and left forks to eat. Each action takes a certain amount of time to complete, as defined by the user in the program arguments. If the philosoper does not eat with in the timeframe provided, he dies- thus ending the program.
 
 One of the most significant challenges of this project was to ensure thread safety and avoid data races. With the strict prohibition of global variables, I had to devise a robust synchronization mechanism using mutexes. This ensured that each philosopher had exclusive access to their forks, preventing conflicts. The program logs every action a philosopher takes, and announces their deaths within 10ms. 
 
