@@ -7,7 +7,7 @@ One of the most significant challenges of this project was to ensure thread safe
 
 Developing the Philosophers project expanded my understanding of concurrent programming, synchronization mechanisms, and the importance of avoiding data races. It pushed my problem-solving skills to the limit and enhanced my ability to handle complex threading scenarios.
 
-##Usage
+## Usage
   - run make 
   - run the program with these arguments: number_of_philosophers time_to_die time_to_eat time_to_sleep
 [number_of_times_each_philosopher_must_eat] (last argument is optional)
