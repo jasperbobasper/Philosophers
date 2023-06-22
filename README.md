@@ -6,10 +6,7 @@ Each philosopher needed to hold both the right and left forks to eat. Each actio
 Developing the Philosophers project expanded my understanding of concurrent programming, synchronization mechanisms, and the importance of avoiding data races. It pushed my problem-solving skills to the limit and taught me a lot about complex threading scenarios.
 
 ## Implementation 
-Each Philosopher is represented by a thread, with a final thread that "Monitors" the philosopher actions and checks that they are staying within time limits. 
-Forks and actions are protected by mutexes to avoid conflict and to make sure a philosopher cannot continue performing actions after death. 
-
-One of the most significant challenges of this project was to ensure thread safety and avoid data races. With a ban on global variables, I had to come up with a synchronization mechanism using mutexes. This ensured that each philosopher had exclusive access to their forks, preventing conflicts. The program logs every action a philosopher takes, and announces their deaths within 10ms. 
+Each Philosopher is represented by a thread, with a final thread that "Monitors" the philosopher actions and checks that they are staying within time limits. One of the most significant challenges of this project was to ensure thread safety and avoid data races. With a ban on global variables, I had to come up with a synchronization mechanism using mutexes. This ensured that each philosopher had exclusive access to their forks, preventing conflicts. The program logs every action a philosopher takes, and announces their deaths within 10ms. 
 
 ## Usage
   - run make 
