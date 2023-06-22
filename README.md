@@ -1,5 +1,5 @@
 # Philosophers - Multithreading Challenge 
-In this  assignment, I had to simulate the behavior of philosophers sitting around a round table, alternately eating, thinking, and sleeping. Their goal? To avoid syinbg of starvation.
+In this  assignment, I had to simulate the behavior of philosophers sitting around a round table, alternately eating, thinking, and sleeping. Their goal? To avoid dying of starvation.
 
 Each philosopher needed to hold both the right and left forks to eat. Each action takes a certain amount of time to complete, as defined by the user in the program arguments. If the philosoper does not eat with in the timeframe provided, he dies- thus ending the program.
 
