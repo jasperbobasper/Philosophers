@@ -1,5 +1,5 @@
 # Philosophers - The Deadly Quest for Sustenance
-In this challenging assignment, I had to simulate the behavior of philosophers sitting around a round table, alternately eating, thinking, and sleeping. Their goal? To avoid the deadly fate of starvation.
+In this  assignment, I had to simulate the behavior of philosophers sitting around a round table, alternately eating, thinking, and sleeping. Their goal? To avoid the deadly fate of starvation.
 
 Each philosopher needed to hold both the right and left forks to eat. Each action takes a certain amount of time to complete, as defined by the user in the program arguments. If the philosoper does not eat with in the timeframe provided, he dies- thus ending the program.
 
